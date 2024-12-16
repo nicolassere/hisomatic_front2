@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: #e0f7fa; /* Fondo azul claro */
 }
 
 .App-logo {
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  margin-bottom: 20px;
 }

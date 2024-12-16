@@ -1,0 +1,67 @@
+/* src/styles/RoomButton.css */
+.room-button {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; /* Ajustamos la altura de cada botón */
+  }
+  
+  .room-button:hover {
+    opacity: 0.95;
+  }
+  
+  .room-header {
+    font-size: 16px;    
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    text-align: center;
+  }
+
+  .room-header h3{
+    font-size: 16px;    
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+  
+  .room-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Hacemos que la imagen ocupe el espacio disponible */
+  }
+  
+  .room-image {
+    width: 80px; /* Hacemos la imagen más grande */
+    height: 80px;
+  }
+  
+  .room-info {
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .status-bar {
+    height: 10px;
+    border-radius: 4px;
+  }
+  
+  .status-bar.verde {
+    background-color: #90ee90; /* Verde */
+  }
+  
+  .status-bar.amarillo {
+    background-color: #ffd700; /* Amarillo */
+  }
+  
+  .status-bar.rojo {
+    background-color: #ff6961; /* Rojo */
+  }
+  

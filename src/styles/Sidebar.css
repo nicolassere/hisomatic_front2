@@ -1,0 +1,32 @@
+/* Sidebar estilos */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #05a769;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sidebar button:hover {
+    background-color: #00695c; /* Verde más claro */
+    border-radius: 5px;
+  }
+  
